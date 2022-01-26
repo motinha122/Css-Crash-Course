@@ -1,0 +1,57 @@
+:root{                                                      
+    --pri-color: #ffd415;
+}
+
+@font-face {
+    font-family: 'Biko';
+    src: url("/fonts/Biko_bold.otf");
+    font-weight:bold;
+}
+@font-face {
+    font-family: 'Biko';
+    src: url("/fonts/Biko_Regular.otf");
+    font-weight: normal;
+}
+
+body {           //structures are referenced by {structure name}     
+    background: #f2f2f2;
+    margin: 0;
+    font-family:Biko;                                 
+    font-weight: normal;
+}
+
+.navbar {           //classes are referenced by .{class name}   
+    background: #ffffff;
+    padding: 1em;
+
+    .title {
+        text-decoration: none;
+        font-weight: bold;
+        color:rgb(0, 8, 56);
+        font-size: 1.2em;
+
+        span {
+            color:var(--pri-color);
+        }
+    }
+    nav {
+        display:none;
+    }
+    
+    .container {
+        display:flex;
+        place-content: space-between;
+    }
+
+    .mobile-menu {
+        cursor:pointer;
+    }
+}   
+
+a {
+    color: #444444;
+}
+
+ul {
+    list-style-type: none;
+}

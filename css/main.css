@@ -1,0 +1,62 @@
+:root {
+  --pri-color: #ffd415;
+}
+
+@font-face {
+  font-family: 'Biko';
+  src: url("/fonts/Biko_bold.otf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Biko';
+  src: url("/fonts/Biko_Regular.otf");
+  font-weight: normal;
+}
+
+body {
+  background: #f2f2f2;
+  margin: 0;
+  font-family: Biko;
+  font-weight: normal;
+}
+
+.navbar {
+  background: #ffffff;
+  padding: 1em;
+}
+
+.navbar .title {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000838;
+  font-size: 1.2em;
+}
+
+.navbar .title span {
+  color: var(--pri-color);
+}
+
+.navbar nav {
+  display: none;
+}
+
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.navbar .mobile-menu {
+  cursor: pointer;
+}
+
+a {
+  color: #444444;
+}
+
+ul {
+  list-style-type: none;
+}
+/*# sourceMappingURL=main.css.map */
