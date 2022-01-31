@@ -115,6 +115,9 @@ section {
     .watch-video-cta{
         display:block;
         margin-top: 2em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
         img{
             margin-right:.5em ;
@@ -230,7 +233,7 @@ nav.menu-btn{
 nav{
     position: fixed;
     z-index: 999;
-    width: 66%;
+    width: 35%;
     right: 0;  
     top:0;
     background: var(--thi-color);
@@ -313,6 +316,7 @@ nav{
             border: 3px solid var(--pri-color);
             border-radius: .4em;
             margin-top: -.1em;
+            transition: all 0.1s ease-in-out;
 
             &:hover{
                 background: var(--pri-color);
@@ -361,10 +365,10 @@ nav{
         display: flex;
 
         a.watch-video-cta{
-
-            img{
-                
-            }
+            margin:0em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     }
 
