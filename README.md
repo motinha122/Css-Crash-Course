@@ -1,6 +1,6 @@
 <h1 align="center">CSS Page Project</h1>
 
-<h3>[projectcss.vercel.app](projectcss.vercel.app)</h3>
+[projectcss.vercel.app](projectcss.vercel.app)
 
 <div align="center">
 
