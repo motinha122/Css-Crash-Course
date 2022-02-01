@@ -1,25 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&display=swap");
 :root {
   --pri-color: #ffd415;
   --sec-color: #ddb500;
   --thi-color: #0F8A94;
 }
 
-@font-face {
-  font-family: 'Biko';
-  src: url("/fonts/Biko_bold.otf");
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: 'Biko';
-  src: url("/fonts/Biko_Regular.otf");
-  font-weight: normal;
-}
-
 body {
   background: #f2f2f2;
   margin: 0;
-  font-family: Biko;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: normal;
 }
 
