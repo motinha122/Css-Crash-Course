@@ -202,7 +202,7 @@ input, textarea {
 
 .send-message-cta {
   width: unset;
-  font-family: Biko;
+  font-family: 'Josefin Sans';
   font-weight: normal;
   font-size: 1.2em;
   background-color: var(--pri-color);
